@@ -2,5 +2,30 @@
 @use 'colors';
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+header {
+  .sale {
+    background-color: #313E7C;
+    padding: 16px;
+    p {
+      color: white;
+      text-align: center;
+
+      span {
+        color: orange;
+      }
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      h4{
+        border: 1px;
+        border-color: gray;
+        border-radius: 12px;
+      }
+    }
+  }
 }

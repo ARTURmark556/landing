@@ -8,29 +8,59 @@
   text-decoration: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-header .sale {
-  background-color: #313E7C;
-  padding: 16px;
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
-header .sale p {
+header .sale {
+  background-color: #313e7c;
+  padding: 16px;
   color: white;
   text-align: center;
 }
-header .sale p span {
+header .sale span {
   color: orange;
 }
-header .sale .menu {
+header .menu {
+  background-color: white;
+  padding: 16px;
   display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 2px solid #e0e0e0;
+}
+header .menu .logo-search {
+  display: flex;
+  gap: 40px;
   align-items: center;
 }
-header .sale .menu h4 {
-  border: 1px;
-  border-color: gray;
+header .menu .logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+header .menu input {
+  border: 1px solid #ccc;
+  padding: 10px;
   border-radius: 12px;
+  font-size: 14px;
+}
+header .menu .nav,
+header .menu .buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

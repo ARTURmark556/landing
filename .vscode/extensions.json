@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "ritwickdey.LiveServer",
+    "ms-vscode.vscode-language-pack-ru",
+    "Compulim.vscode-clock",
+    "mtxr.sqltools"
+  ]
+}
